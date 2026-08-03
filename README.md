@@ -1,7 +1,7 @@
 # Ellipsometry
 Analyzing ellipsometry from LiF on Si deposits.
 
-Ellipsometry8_3_26.ipynb contains the preliminary analysis of the Woollam data that arrived on August 2nd. It deals with a fused silica blank about 600 nm of LiF that has been scanned three times with a spacing of 2 mm. Scans2 and 4 are with the wafer flat at the 12 o'clock position and Scan3 with it at the 3 o'clock position. The initial conclusions are:
+Ellipsometry8_3_16.ipynb (sorry about the typo in the name, it is not easy to fix on GitHub) contains the preliminary analysis of the Woollam data that arrived on August 2nd. It deals with a fused silica blank about 600 nm of LiF that has been scanned three times with a spacing of 2 mm. Scans2 and 4 are with the wafer flat at the 12 o'clock position and Scan3 with it at the 3 o'clock position. The initial conclusions are:
  - The ellipsometry is very reproducible.
  - The odd far off points do not reproduce.
  - This deposit has the form of a rather sharp ridge (more quartic than quadratic) with a total height of about 1.3%.
