@@ -1,13 +1,14 @@
 # Ellipsometry
 Analyzing ellipsometry from LiF on Si deposits.
 
-Ellipsometry8_3_16.ipynb (sorry about the typo in the name, it is not easy to fix on GitHub) contains the preliminary analysis of the Woollam data that arrived on August 2nd. It deals with a fused silica blank about 600 nm of LiF that has been scanned three times with a spacing of 2 mm. Scans2 and 4 are with the wafer flat at the 12 o'clock position and Scan3 with it at the 3 o'clock position. The data are in files *Run_6_26_Scan<n>.png* where <n> is the scan number. Scan number 1 was just a measurement of the refractive index of the glass substrate so I did not include it.
+Ellipsometry8_3_26.ipynb contains the preliminary analysis of the Woollam data that arrived on August 2nd. It deals with a fused silica blank about 600 nm of LiF that has been scanned three times with a spacing of 2 mm. Scans2 and 4 are with the wafer flat at the 12 o'clock position and Scan3 with it at the 3 o'clock position. The data are in files *Run_6_26_Scan<n>.png* where <n> is the scan number. Scan number 1 was just a measurement of the refractive index of the glass substrate so I did not include it.
 
-The initial conclusions are:
+The conclusions are:
  - The ellipsometry is very reproducible.
  - The odd far off points do not reproduce.
  - This deposit has the form of a rather sharp ridge (more quartic than quadratic) with a total height of about 1.3%.
  - The difference between two supposedly identical scans is normally distributed with a FWHM of about 0.5 nm.
+ - The data from the rotated position match those from the unrotated positions to almost the same precision as the two unrotated positions.
 
 Ellipsometry1.ipynb starts with a summary of our visual inspection of the data in Run_11_15
 and some notes on the 7/1/26 Zoom call with Matthew Barber of Blue Ridge and Ron Synowicki of Woollam.
