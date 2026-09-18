@@ -1,6 +1,13 @@
 # Ellipsometry
 Analyzing ellipsometry from LiF on Si deposits.
 
+Ellipsometry9_16.ipynb extends the analysis to the new data added by Woollam on 9/16/26. These include
+ - 1 mm spacing scan of the LiF on fused silica studied in Ellipsometry8_3_26.ipynb
+ - 2 mm scan of LiF on an unetched Si wafer
+ - 2 mm scan of LiF on an etched Si wafer
+
+The 1 mm data are in good agreement with the 2 mm data taken a month earlier. The Si data are in general agreement with the fused silica data but show some differences in shape. In particular, the etched wafer shows quite a bit more curvature than either the fused silica or unetched wafer data.
+
 Ellipsometry8_3_26.ipynb contains the preliminary analysis of the Woollam data that arrived on August 2nd. It deals with a fused silica blank about 600 nm of LiF that has been scanned three times with a spacing of 2 mm. Scans2 and 4 are with the wafer flat at the 12 o'clock position and Scan3 with it at the 3 o'clock position. The data are in files *Run_6_26_Scan<n>.png* where <n> is the scan number. Scan number 1 was just a measurement of the refractive index of the glass substrate so I did not include it.
 
 The conclusions are:
