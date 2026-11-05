@@ -1,5 +1,11 @@
-# Ellipsometry
+<img width="790" height="21268" alt="image" src="https://github.com/user-attachments/assets/b26cbd6b-4977-4000-afa0-d539f2b84037" /># Ellipsometry
 Analyzing ellipsometry from LiF on Si deposits.
+
+Run10_26SN0x.ipynb are analyses of the four enriched LiF on etched Si wafers deposited by Blue Ridge in October 2026. These have a target thickness of 300 nm and have come in very close. Blue Ridge had trouble with the powdered 6LiF that we supplied and Woollam found that they had to include an interlayer of lower density that appears to be a thin (30-40 nm) region where the LiF does not stick uniformly and there are voids in the deposit. Assuming that this is true I compute the active thickness of the deposit as
+
+total thickness = (top layer thickness) + (fill fraction) * (interlayer thickness)
+
+Using this I find that the deposits are the most nearly uniform that Blue Ridge have made and should be entirely suitable for production work. The first two fit to constant thickness plus random noise at the 1-2 nm level.
 
 Ellipsometry9_16.ipynb and siblings extend the analysis to the new data added by Woollam on 9/16/26. These include
  - 1 mm spacing scan of the LiF on fused silica studied in Ellipsometry8_3_26.ipynb
