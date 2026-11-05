@@ -4,7 +4,7 @@ Run10_26SN0x.ipynb are analyses of the four enriched LiF on etched Si wafers dep
 
 total thickness = (top layer thickness) + (fill fraction) * (interlayer thickness)
 
-Using this I find that the deposits are the most nearly uniform that Blue Ridge have made and should be entirely suitable for production work. The first two fit to constant thickness plus random noise at the 1-2 nm level.
+Using this I find that the deposits are the most nearly uniform that Blue Ridge have made and should be entirely suitable for production work. The first two fit to constant thickness plus random noise at the 1-2 nm level. The second two show very slight planar slopes with thickness difference nearly 1 nm across the whole deposit and the same sort of random noise as the first two. 
 
 Ellipsometry9_16.ipynb and siblings extend the analysis to the new data added by Woollam on 9/16/26. These include
  - 1 mm spacing scan of the LiF on fused silica studied in Ellipsometry8_3_26.ipynb
